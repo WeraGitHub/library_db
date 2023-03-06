@@ -1,6 +1,8 @@
 -- create database library;
+create database if not exists library_v;
 
 -- use library;
+use library_v;
 
 create table genre
 (genre_id int auto_increment primary key,
